@@ -2,7 +2,7 @@ resource "aws_s3_bucket" "logs_bucket" {
   bucket = "${var.env}-logs-bucket"
 
   tags = {
-    Name = "${var.env}-logs-bucket99"
+    Name = "${var.env}-logs-bucket2025-6-30"
     Environment = var.env
   }
 }
