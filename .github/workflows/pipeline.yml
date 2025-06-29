@@ -24,11 +24,7 @@ jobs:
         working-directory: envs/${{ env.ENV_NAME }}
 
     steps:
-      - name: Show ENV_NAME
-        run: |
-           echo "Running for environment: $ENV_NAME"
-    
-
+      
       - name: Checkout Code
         uses: actions/checkout@v3
 
