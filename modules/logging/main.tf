@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "logs_bucket" {
-  bucket = "${var.env}-logs-bucket"
+  bucket = "${var.env}-logs-bucket-345675"
 
   tags = {
 
