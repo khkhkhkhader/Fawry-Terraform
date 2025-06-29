@@ -1,0 +1,14 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.backup
+*.tfvars
+!terraform.tfvars
+*.zip
+*.gz
+*.tar
+.DS_Store
+.idea/
+.vscode/
+*.swp
