@@ -13,6 +13,7 @@ module "compute" {
   key_name       = var.key_name
   instance_type  = var.instance_type
   subnet_ids     = module.network.public_subnet_ids
+vpc_id = module.network.vpc_id
 }
 
 module "logging" {
