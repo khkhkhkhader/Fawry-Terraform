@@ -8,14 +8,18 @@ on:
   pull_request:
     branches:
       - prod
+env:
+  ENV_NAME: ${{ github.base_ref || github.ref_name }}
 
 jobs:
   terraform:
     runs-on: ubuntu-latest
 
+    
+
     defaults:
       run:
-        working-directory: envs/${{ github.ref_name }}
+        working-directory: envs/${{ env.ENV_NAME }}
 
     steps:
       - name: Checkout Code
