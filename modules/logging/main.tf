@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "logs_bucket" {
 
   tags = {
 
-    Name = "${var.env}-logs-bucket345675"
+    Name = "my-logs-bucket345675-terraform-state-name"
 
     Environment = var.env
   }
