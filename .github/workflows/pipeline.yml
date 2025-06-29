@@ -18,13 +18,10 @@ jobs:
     
 
     defaults:
-
-    
       run:
         working-directory: envs/${{ env.ENV_NAME }}
 
     steps:
-      
       - name: Checkout Code
         uses: actions/checkout@v3
 
