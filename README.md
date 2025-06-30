@@ -11,8 +11,9 @@ Uses Infrastructure as Code (IaC)
 Supports pre-production and production environments
 CI/CD pipeline deploys on GitHub push
 
-📁 Project Structure
+## 📁 Project Structure
 
+```plaintext
 trproject/
 ├── modules/
 │   ├── compute/
@@ -46,8 +47,10 @@ trproject/
 ├── .github/
 │   └── workflows/
 │       └── terraform.yml
-│                
+│
 └── README.md
+```
+
 
 🌍 Landing Zone Architecture
 Pre-Prod
