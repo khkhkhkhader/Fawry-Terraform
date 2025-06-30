@@ -15,3 +15,4 @@ azs = [
 ami_id        = "ami-05ffe3c48a9991133" 
 key_name      = "preprod-key"
 instance_type = "t2.micro"
+instance_count = 1
