@@ -1,7 +1,7 @@
 # Terraform AWS Free Tier Infrastructure – Multi-Environment Setup
 ---
 
-https://github.com/khkhkhkhader/Fawry-Terraform/blob/7d3ee489b8d405857fbe2a95353a60d357624c22/Untitled.png
+![image](https://github.com/user-attachments/assets/87b24ffb-4468-422b-afe2-30df4fc68889)
 
 ## 👋 Introduction
 This project is a Proof of Concept (POC) for setting up a secure, automated AWS Landing Zone using Terraform and GitHub Actions — entirely within AWS Free Tier limits.
